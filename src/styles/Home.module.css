@@ -9,12 +9,22 @@
   margin:auto;
   margin-top: 2rem;
   min-height: 100vh;
-  min-width: 100vh;
- 
+}
+
+.cla a {
+  margin: 8px 0 0 0;
+  padding: 5px;
+  font-size: 1.10rem;
+  width: 100px;
+  line-height: 1.2;
+  background-color:  rgb(230,121,26);
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 1rem 0;
   flex: 1;
   display: flex;
@@ -26,7 +36,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 /* .description {
@@ -40,7 +50,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 400px;
 }
 
 .card {
@@ -87,7 +97,7 @@
 }
 
 .logo {
-  height: 1em;
+  height: .5em;
   margin-left: 0.5rem;
 }
 
