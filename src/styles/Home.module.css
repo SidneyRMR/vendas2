@@ -39,6 +39,9 @@
   font-size: 2rem;
 }
 
+.tabela input {
+  width: 50px;
+}
 /* .description {
   margin: 4rem 0;
   line-height: 1.5;

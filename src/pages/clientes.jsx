@@ -45,8 +45,7 @@ export default function clientes() {
                                     <td>{client.nome}</td>
                                     <td>{client.cidade}</td>
                                     <td width='15%'>
-                                        <a placeholder='Vender' href={'/'}>Vender
-                                        </a>
+                                        <a placeholder='Vender' href={'/venda'}>Vender</a>
                                     </td>
                                 </tr>
 
